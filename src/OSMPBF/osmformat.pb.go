@@ -6,8 +6,7 @@ package OSMPBF
 import proto "code.google.com/p/goprotobuf/proto"
 import "math"
 
-// Reference proto and math imports to suppress error if they are not otherwise used.
-var _ = proto.GetString
+// Reference math import to suppress error if they are not otherwise used.
 var _ = math.Inf
 
 type Relation_MemberType int32
